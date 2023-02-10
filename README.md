@@ -13,3 +13,9 @@ Estudio en el Instituto Tecnológico de Tijuana:
 
 - Discord: Lalo1034#5038
 - Email: eduardo.rodriguez193@tectijuana.edu.mx
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
